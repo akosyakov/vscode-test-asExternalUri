@@ -1,0 +1,36 @@
+{
+  "name": "test-asexternamliri",
+  "private": true,
+  "description": "Test asExternamlUri",
+  "enableProposedApi": true,
+  "version": "0.0.1",
+  "publisher": "bierner",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "test.asExternalUri",
+        "title": "Test asExternalUri"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.8",
+    "@types/vscode": "1.38.0",
+    "typescript": "^3.6.3"
+  }
+}
