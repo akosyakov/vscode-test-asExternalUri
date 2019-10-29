@@ -1,12 +1,12 @@
 {
-  "name": "test-asexternamliri",
+  "name": "test-asexternaliri",
   "private": true,
-  "description": "Test asExternamlUri",
+  "description": "Test asExternalUri",
   "enableProposedApi": true,
   "version": "0.0.1",
   "publisher": "bierner",
   "engines": {
-    "vscode": "^1.38.0"
+    "vscode": "^1.40.0"
   },
   "categories": [
     "Other"
