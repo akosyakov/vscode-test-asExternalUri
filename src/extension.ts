@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import * as http from 'http';
 
-const PORT = 3000;
+const PORT = 4000;
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -10,9 +10,9 @@ export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand('test.asExternalUri', async () => {
       const response = await vscode.window.showInputBox({
         prompt: 'Enter uri to resolve',
-        placeHolder: 'http://localhost:3000'
+        placeHolder: 'http://localhost:4000'
       });
- 
+
       if (!response) {
         return
       }
